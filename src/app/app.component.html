@@ -1,0 +1,11 @@
+Screen: {{responsiveService.screenSize}} <br>
+Device: {{responsiveService.deviceType}} <br>
+Orientation: {{responsiveService.orientation}} <br>
+
+<br>
+
+<div class="square" [ngClass]="{'mobile': responsiveService.deviceMobile(), 
+'web': responsiveService.deviceDesktop(), 
+'tablet': responsiveService.deviceTablet()}">
+
+</div>

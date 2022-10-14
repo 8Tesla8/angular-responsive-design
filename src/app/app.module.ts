@@ -4,17 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResponsiveService } from './responsive/responsive.service';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
-  providers: [],
+  declarations: [AppComponent],
+  imports: [ BrowserModule,AppRoutingModule,FormsModule],
+  providers: [ ResponsiveService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

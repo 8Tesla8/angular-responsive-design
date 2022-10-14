@@ -7,7 +7,7 @@ export enum OrientationType {
 export enum DeviceType {
     Unknown = 'Unknown',
     Tablet = 'Tablet',
-    Handset = 'Handset',
+    Handset = 'Handset', //Mobile
     Web = 'Web',
 }
 
